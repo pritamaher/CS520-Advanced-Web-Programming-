@@ -1,0 +1,5 @@
+drop table if exists additionalfields,applicants,applications,additionalfieldvalues,applicationstatuss,applicationstatusaudits,departments,educationalbackgrounds,departments_programs,programs,programs_applications,staffs,users,applicants_educationalbackgrounds cascade;
+
+
+
+drop sequence hibernate_sequence;

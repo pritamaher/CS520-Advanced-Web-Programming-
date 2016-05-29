@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="springmvc.model.dao.StatusDaoTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- springmvc.model.dao.StatusDaoTest -->
+      <class name="springmvc.model.dao.UserDaoTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="getDepartments"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- springmvc.model.dao.UserDaoTest -->
+      <class name="springmvc.model.dao.ApplicationDaoTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- springmvc.model.dao.ApplicationDaoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
